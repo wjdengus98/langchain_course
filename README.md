@@ -1,6 +1,6 @@
 # LangChain- Develop AI Agents with LangChain & LangGraph 🦜🔗
 
-**Learn LangChain and LangGraph by building real world AI Agents (Python, Latest Version 0.3.0+)**
+**Learn LangChain and LangGraph by building real world AI Agents (Python, Latest Version V.1.0+)**
 
 This course is designed to teach you how to QUICKLY harness the power of the LangChain library for LLM applications. Build 3 end-to-end working LangChain based generative AI applications with no fluff, no toy examples - just real projects using real APIs and real-world skills.
 
@@ -10,7 +10,7 @@ This course is designed to teach you how to QUICKLY harness the power of the Lan
 [![Twitter Follow](https://img.shields.io/twitter/follow/EdenMarco177?style=social)](https://twitter.com/EdenMarco177)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
-[![udemy](https://img.shields.io/badge/LangChain%20Udemy%20Course%20Coupon%20%2412.99-brightgreen)](https://www.udemy.com/course/langchain/?couponCode=SEP-2025)
+[![udemy](https://img.shields.io/badge/LangChain%20Udemy%20Course%20Coupon%20%2412.99-brightgreen)](https://www.udemy.com/course/langchain/?couponCode=DEC-2025)
 
 
 
@@ -20,12 +20,13 @@ This course takes you through building 7 real-world AI agent projects, from simp
 
 | Project | Type | Description |
 |---------|------|-------------|
-| 👋 Hello World Agent | Branch (`project/hello-world`) | Your first AI agent - basic structure and LLM integration |
-| 💻 Code Interpreter | Branch (`project/code-interpreter`) | AI-powered code execution and analysis |
-| 🧠 ReAct Under the Hood | Branch (`project/react-under-hood`) | Understanding reasoning and acting patterns in AI agents |
-| 🔍 [Ice Breaker](https://github.com/emarco177/IceBreaker) | External Repo | Social media profile analyzer |
-| 📝 Medium Analyzer | External Repo | Content analysis and insights generator |
+| 👋 [LangChain Hello World](https://github.com/emarco177/langchain-course/tree/project/hello-world) | Branch (`project/hello-world`) | Your first AI agent - basic structure and LLM integration |
+| 🔎  [Modern Search Agent](https://github.com/emarco177/ice_breaker/tree/project/search-agent) | Branch (`project/search-agent`) | Build search agents using LangChain v.1's `create_agent` interface with custom tools, Tavily integration, and structured outputs |
+| 🔎 [Classic ReAct Search Agent](https://github.com/emarco177/langchain-course/tree/project/ReAct-search-agent) | Branch (`project/ReAct-search-agent`) | ReAct agent with search capabilities using the original `create_react_agent` from langchain-classic |
+| 🧠 [ReAct Algorithm Under the Hood](https://github.com/emarco177/langchain-course/tree/project/ReAct-Algo) | Branch (`project/ReAct-Algo`) | Understanding reasoning and acting patterns in AI agents |
+| 📄 [RAG Gist](https://github.com/emarco177/langchain-course/tree/project/rag-gist) | Branch (`project/rag-gist`) | The gist of retrieval-augmented generation |
 | 📚 [Documentation Helper](https://github.com/emarco177/documentation-helper) | External Repo | Intelligent documentation assistant |
+| 💻 [Code Interpreter](https://github.com/emarco177/langchain-course/tree/project/code-interpreter) | Branch (`project/code-interpreter`) | AI-powered code execution and analysis |
 | 🪞 [Reflection Agent](https://github.com/emarco177/langgraph-course/tree/project/reflection-agent) | External Repo | Self-improving agent with reflection and critique capabilities |
 | 🔄 [Reflexion Agent](https://github.com/emarco177/langgraph-course/tree/project/reflexion-agent) | External Repo | Advanced self-correcting agent using reflexion techniques |
 | 🤖 [Agentic RAG](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag) | External Repo | Advanced retrieval-augmented generation system |
@@ -97,14 +98,6 @@ This course takes you through building 7 real-world AI agent projects, from simp
    - Use `git log --oneline` to see the learning progression
    - Checkout previous commits to understand the development process
 
-## 📁 Branches Structure 
-
-```
-langchain-course/
-├── project/hello-world/          # Basic Chain 
-├── project/code-interpreter/     # Slim Code execution 
-└── project/react-under-hood/     # ReAct Algorithm Deep Dive
-```
 **External Projects:**
 - [Ice Breaker](https://github.com/emarco177/ice_breaker) - Social media profile analyzer
 - [Medium Analyzer](https://github.com/emarco177/blog-analyzer) - Content analysis and insights generator
@@ -155,4 +148,3 @@ If you find this project helpful, please consider:
 **Built with ❤️ by Eden Marco**
 
 </div>
-

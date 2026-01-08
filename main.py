@@ -15,7 +15,7 @@ load_dotenv()
 # LangChain 핵심 모듈들 임포트
 from langchain import hub
 from langchain.agents import AgentExecutor
-from langchain.agents.react.agent import create_react_agent
+from langchain.agents import create_react_agent
 from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnableLambda
 from langchain_openai import ChatOpenAI

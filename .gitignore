@@ -1,0 +1,23 @@
+# 가상환경
+.venv/
+
+# 환경변수
+.env
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter 체크포인트
+.ipynb_checkpoints/
+
+# Chroma DB
+chroma_db/
+db/
+
+# 모델 캐시 (HuggingFace)
+.cache/
+
+# 기타
+*.log
